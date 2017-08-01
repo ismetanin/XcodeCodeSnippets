@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>TableViewAdapter</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import UIKit
+
+final class &lt;#Your#&gt;TableViewAdapter: NSObject {
+
+    // MARK: - Constants
+
+    fileprivate let output: &lt;#Your#&gt;TableViewAdapterOutput
+
+    // MARK: - Properties
+
+    fileprivate var items: [&lt;#ItemsType#&gt;]
+    fileprivate (set) var tableView: UITableView {
+        didSet {
+            tableView.register(UINib(nibName: &lt;#CellName#&gt;, bundle: nil), forCellReuseIdentifier: &lt;#CellName#&gt;)
+        }
+    }
+
+    // MARK: - Initialization and deinitialization
+
+    init(output: &lt;#Your#&gt;TableViewAdapterOutput) {
+        self.output = output
+    }
+
+    // MARK: - Internal helpers
+
+    func set(tableView: UITableView) {
+        self.tableView = tableView
+    }
+
+    func configure(with items: &lt;#ItemsType#&gt;) {
+        self.items = items
+    }
+
+}
+
+
+// MARK: - UITableViewDataSource
+
+extension &lt;#Your#&gt;TableViewAdapter: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+        return items.count
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
+        let cell = UITableViewCell()
+        return cell
+    }
+}
+
+
+// MARK: - UITableViewDelegate
+
+extension &lt;#Your#&gt;TableViewAdapter: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A1B0978E-94D6-4B90-9D4E-3AFD1111621D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Table view adapter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
