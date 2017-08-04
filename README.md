@@ -1,13 +1,13 @@
 # XcodeCodeSnippets
-Набор готовых сниппетов для Xcode.
+A set of snippets for Xcode.
 
-### Requirements:
-Xcode 7.3.1 или новее
+### Requirements
+Xcode 7.3.1 or later.
 
-Для установки необходимо просто скопировать файлы из папки Snippets и переместить в `~/Library/Developer/Xcode/UserData/CodeSnippet`.
+For installation you just need to copy the files from the "Snippets" folder and move them to `~/Library/Developer/Xcode/UserData/CodeSnippet`.
 
-### Список сниппетов:
-#### Комментарии:
+### List of snippets
+#### Comments
 * MARK: - Internal methods
 * MARK: - Constants
 * MARK: - IBOutlets
@@ -15,5 +15,5 @@ Xcode 7.3.1 или новее
 * MARK: - Private helpers
 * MARK: - Initialization and deinitialization
 * MARK: - Properties
-#### Код:
+#### Code
 * Шаблон для создания TableViewAdapter
