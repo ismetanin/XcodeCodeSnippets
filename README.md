@@ -16,4 +16,4 @@ For installation you just need to copy the files from the "Snippets" folder and 
 * MARK: - Initialization and deinitialization
 * MARK: - Properties
 #### Code
-* Шаблон для создания TableViewAdapter
+* A template for creating TableViewAdapter
