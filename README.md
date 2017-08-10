@@ -8,12 +8,13 @@ For installation you just need to copy files from the "Snippets" folder and move
 
 ### List of snippets
 #### Comments
-* MARK: - Internal methods
-* MARK: - Constants
-* MARK: - IBOutlets
-* MARK: - IBActions
-* MARK: - Private helpers
-* MARK: - Initialization and deinitialization
-* MARK: - Properties
+* MARK: - Internal methods, `shortcut: Internal methods`
+* MARK: - Constants, `shortcut: Constants`
+* MARK: - IBOutlets, `shortcut: IBOutlet`
+* MARK: - IBActions, `shortcut: IBActions`
+* MARK: - Private helpers, `shortcut: Private helpers`
+* MARK: - Initialization and deinitialization, `shortcut: Initialization and deinitialization`
+* MARK: - Properties, `shortcut: Properties`
 #### Code
-* A template for creating TableViewAdapter
+* A template for creating TableViewAdapter, `shortcut: Table View Adapter`
+* A code block for creating user property in UserDefaults extension, , `shortcut: Defaults Key`
