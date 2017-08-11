@@ -17,7 +17,8 @@ For installation you just need to copy files from the "Snippets" folder and move
 * MARK: - Properties, `shortcut: Properties`
 #### Code
 * A template for creating TableViewAdapter, `shortcut: Table View Adapter`
-* A code block for creating user property in UserDefaults extension, , `shortcut: Defaults Key`
+* A code block for creating user property in UserDefaults extension, `shortcut: Defaults Key`
+* A code block for creating object that implment TableCellGenerator and ViewBuilder protocols, `shortcut: implTableCellGenerator`
 
 ### Preview
 ![ezgif-4-770bdfd9ab](https://user-images.githubusercontent.com/11653316/29164667-ea289d52-7dc8-11e7-99f7-462f7837a7d4.gif)
