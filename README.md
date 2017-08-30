@@ -4,7 +4,10 @@ A set of snippets for Xcode.
 ### Requirements
 Xcode 7.3.1 or later.
 
-For installation you just need to copy files from the "Snippets" folder and move it to `~/Library/Developer/Xcode/UserData/CodeSnippet`.
+### Installation
+To install or update the snippets you need:
+  * Download this project
+  * On the command line, cd into the directory with templates and write `$sh ./install.sh`
 
 ### List of snippets
 #### Comments
