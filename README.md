@@ -13,7 +13,7 @@ To install or update the snippets you need:
 #### Comments
 * MARK: - Internal methods, `shortcut: Internal methods`
 * MARK: - Constants, `shortcut: Constants`
-* MARK: - IBOutlets, `shortcut: IBOutlet`
+* MARK: - IBOutlets, `shortcut: IBOutlets`
 * MARK: - IBActions, `shortcut: IBActions`
 * MARK: - Private helpers, `shortcut: Private helpers`
 * MARK: - Initialization and deinitialization, `shortcut: Initialization and deinitialization`
