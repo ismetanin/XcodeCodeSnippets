@@ -11,11 +11,14 @@
 	<key>IDECodeSnippetContents</key>
 	<string>import UIKit
 
+protocol &lt;#Your#&gt;ViewAdapterOutput {
+}
+
 final class &lt;#Your#&gt;TableViewAdapter: NSObject {
 
     // MARK: - Constants
 
-    fileprivate let output: &lt;#Your#&gt;TableViewAdapterOutput
+    fileprivate let output: &lt;#Your#&gt;ViewAdapterOutput
 
     // MARK: - Properties
 
@@ -28,7 +31,7 @@ final class &lt;#Your#&gt;TableViewAdapter: NSObject {
 
     // MARK: - Initialization and deinitialization
 
-    init(output: &lt;#Your#&gt;TableViewAdapterOutput) {
+    init(output: &lt;#Your#&gt;ViewAdapterOutput) {
         self.output = output
     }
 
