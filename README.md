@@ -7,7 +7,7 @@ Xcode 7.3.1 or later.
 ### Installation
 To install or update the snippets you need:
   * Download this project
-  * On the command line, cd into the directory with templates and write `$sh ./install.sh`
+  * On the command line, cd into the directory with templates and write `sh ./install.sh`
 
 ### List of snippets
 #### Comments
