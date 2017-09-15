@@ -21,7 +21,14 @@ To install or update the snippets you need:
 #### Code
 * A template for creating TableViewAdapter, `shortcut: Table View Adapter`
 * A code block for creating user property in UserDefaults extension, `shortcut: Defaults Key`
-* A code block for creating object that implment TableCellGenerator and ViewBuilder protocols, `shortcut: implTableCellGenerator`
 
 ### Preview
 ![ezgif-4-770bdfd9ab](https://user-images.githubusercontent.com/11653316/29164667-ea289d52-7dc8-11e7-99f7-462f7837a7d4.gif)
+
+### Author
+
+iSmetanin, smetanin23@yandex.ru
+
+### License
+
+XcodeCodeSnippets is available under the MIT license. See the LICENSE file for more info.
