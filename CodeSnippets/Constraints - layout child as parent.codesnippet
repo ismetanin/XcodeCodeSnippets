@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>Constraints - layout child as parent</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#childView#&gt;.translatesAutoresizingMaskIntoConstraints = false
+
+            var constraints = [NSLayoutConstraint]()
+            constraints.append(NSLayoutConstraint(with: .left, firstItem: &lt;#childView#&gt;, secondItem: &lt;#parentView#&gt;))
+            constraints.append(NSLayoutConstraint(with: .right, firstItem: &lt;#childView#&gt;, secondItem: &lt;#parentView#&gt;))
+            constraints.append(NSLayoutConstraint(with: .bottom, firstItem: &lt;#childView#&gt;, secondItem: &lt;#parentView#&gt;))
+            constraints.append(NSLayoutConstraint(with: .top, firstItem: &lt;#childView#&gt;, secondItem: &lt;#parentView#&gt;))
+
+            &lt;#parentView#&gt;.addConstraints(constraints)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AB7AB587-40D3-4B26-BF65-33DAEB5D19D2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Constraints - layout child as parent</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
