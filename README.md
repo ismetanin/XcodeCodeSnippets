@@ -18,6 +18,7 @@ To install or update the snippets you need:
 * MARK: - Private helpers, `shortcut: Private helpers`
 * MARK: - Initialization and deinitialization, `shortcut: Initialization and deinitialization`
 * MARK: - Properties, `shortcut: Properties`
+* MARK: - NSLayoutConstraints, `shortcut: NSLayoutConstraints`
 #### Code
 * A template for creating TableViewAdapter, `shortcut: Table View Adapter`
 * A code block for creating user property in UserDefaults extension, `shortcut: Defaults Key`
