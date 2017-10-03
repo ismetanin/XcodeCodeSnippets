@@ -6,8 +6,16 @@ Xcode 7.3.1 or later.
 
 ### Installation
 To install or update the snippets you need:
-  * Download this project
-  * On the command line, cd into the directory with templates and write `sh ./install.sh`
+  * Quit Xcode
+  * On the command line:
+  ```
+  git clone https://github.com/ismetanin/XcodeCodeSnippets
+mkdir -p $HOME/Library/Developer/Xcode/UserData/CodeSnippets
+cp XcodeCodeSnippets/CodeSnippets/* $HOME/Library/Developer/Xcode/UserData/CodeSnippets
+rm -rf XcodeCodeSnippets
+  ```
+  Of if you have a cloned repository:
+  * On the command line, cd into the directory with snippets and write `sh ./install.sh`
 
 ### List of snippets
 #### Comments
@@ -33,4 +41,4 @@ iSmetanin, smetanin23@yandex.ru
 
 ### License
 
-XcodeCodeSnippets is available under the MIT license. See the LICENSE file for more info.
+XcodeCodeSnippets is available under the MIT license. See the [LICENSE](https://github.com/ismetanin/XcodeCodeSnippets/blob/master/LICENSE) file for more info.
