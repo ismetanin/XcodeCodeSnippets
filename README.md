@@ -14,7 +14,7 @@ mkdir -p $HOME/Library/Developer/Xcode/UserData/CodeSnippets
 cp XcodeCodeSnippets/CodeSnippets/* $HOME/Library/Developer/Xcode/UserData/CodeSnippets
 rm -rf XcodeCodeSnippets
   ```
-  Of if you have a cloned repository:
+  Or if you have a cloned repository:
   * On the command line, cd into the directory with snippets and write `sh ./install.sh`
 
 ### List of snippets
