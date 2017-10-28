@@ -108,7 +108,7 @@ rm -rf XcodeCodeSnippets
     }
    ```
   </details>
-* A code block for layouting child view edges equal to a parent view edges, `shortcut: Constraints - layout child as parent`
+* A code block for layouting child view anchors equal to a parent view anchors, `shortcut: Constraints - layout child as parent`
   <details>
   <summary>Code</summary>
   <br>
