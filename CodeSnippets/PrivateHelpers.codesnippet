@@ -6,10 +6,10 @@
 	<string>Private helpers</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>StringOrComment</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>MARK: - Private helpers</string>
+	<string>// MARK: - Private helpers</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>8019B756-5867-4995-9CD1-FE695546E731</string>
 	<key>IDECodeSnippetLanguage</key>

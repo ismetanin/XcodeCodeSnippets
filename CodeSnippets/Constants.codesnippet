@@ -6,10 +6,10 @@
 	<string>Constants</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>StringOrComment</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>MARK: - Constants</string>
+	<string>// MARK: - Constants</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>19B5FE13-52D3-49E1-B64C-809E62F5F483</string>
 	<key>IDECodeSnippetLanguage</key>

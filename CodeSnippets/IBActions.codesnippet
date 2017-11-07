@@ -6,10 +6,10 @@
 	<string>IBActions</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>StringOrComment</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>MARK: - IBActions</string>
+	<string>// MARK: - IBActions</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>01C66613-3831-4DB9-9D4F-96EEEF538945</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -6,10 +6,10 @@
 	<string>UITableViewCell</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>StringOrComment</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>MARK: - UITableViewCell</string>
+	<string>// MARK: - UITableViewCell</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F92FD887-0CD9-4897-90EF-62D507D76C7A</string>
 	<key>IDECodeSnippetLanguage</key>

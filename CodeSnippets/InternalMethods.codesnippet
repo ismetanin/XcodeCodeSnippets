@@ -6,10 +6,10 @@
 	<string>Internal Helpers</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>StringOrComment</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>MARK: - Internal methods</string>
+	<string>// MARK: - Internal methods</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6C632B06-7A85-4EE0-91EC-2C208BBAF27E</string>
 	<key>IDECodeSnippetLanguage</key>

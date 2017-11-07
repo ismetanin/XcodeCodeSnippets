@@ -6,10 +6,10 @@
 	<string>Properties</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>StringOrComment</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>MARK: - Properties</string>
+	<string>// MARK: - Properties</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A41F7A26-6620-439E-B14F-6920FCB714B9</string>
 	<key>IDECodeSnippetLanguage</key>

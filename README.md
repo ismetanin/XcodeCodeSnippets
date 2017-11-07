@@ -19,14 +19,14 @@ rm -rf XcodeCodeSnippets
 
 ### List of snippets
 #### Comments
-* MARK: - Internal methods, `shortcut: Internal methods`
-* MARK: - Constants, `shortcut: Constants`
-* MARK: - IBOutlets, `shortcut: IBOutlets`
-* MARK: - IBActions, `shortcut: IBActions`
-* MARK: - Private helpers, `shortcut: Private helpers`
-* MARK: - Initialization and deinitialization, `shortcut: Initialization and deinitialization`
-* MARK: - Properties, `shortcut: Properties`
-* MARK: - NSLayoutConstraints, `shortcut: NSLayoutConstraints`
+* // MARK: - Internal methods, `shortcut: Internal methods`
+* // MARK: - Constants, `shortcut: Constants`
+* // MARK: - IBOutlets, `shortcut: IBOutlets`
+* // MARK: - IBActions, `shortcut: IBActions`
+* // MARK: - Private helpers, `shortcut: Private helpers`
+* // MARK: - Initialization and deinitialization, `shortcut: Initialization and deinitialization`
+* // MARK: - Properties, `shortcut: Properties`
+* // MARK: - NSLayoutConstraints, `shortcut: NSLayoutConstraints`
 #### Code
 * A template for creating TableViewAdapter, `shortcut: Table View Adapter`
   <details>
@@ -181,7 +181,7 @@ rm -rf XcodeCodeSnippets
 
 ### Author
 
-iSmetanin, smetanin23@yandex.ru
+Ivan Smetanin, smetanin23@yandex.ru
 
 ### License
 
