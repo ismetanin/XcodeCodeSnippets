@@ -6,10 +6,10 @@
 	<string>Initialization and deinitialization</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>StringOrComment</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>MARK: - Initialization and deinitialization</string>
+	<string>// MARK: - Initialization and deinitialization</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>8B94553C-175D-42FB-BB94-B4E9D8CE3810</string>
 	<key>IDECodeSnippetLanguage</key>
