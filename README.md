@@ -116,12 +116,12 @@ rm -rf XcodeCodeSnippets
    ```
     <#childView#>.translatesAutoresizingMaskIntoConstraints = false
 
-        NSLayoutConstraint.activate([
-            <#childView#>.topAnchor.constraint(equalTo: <#parentView#>.topAnchor, constant: 0),
-            <#childView#>.bottomAnchor.constraint(equalTo: <#parentView#>.bottomAnchor, constant: 0),
-            <#childView#>.leadingAnchor.constraint(equalTo: <#parentView#>.leadingAnchor, constant: 0),
-            <#childView#>.trailingAnchor.constraint(equalTo: <#parentView#>.trailingAnchor, constant: 0)
-            ])
+    NSLayoutConstraint.activate([
+        <#childView#>.topAnchor.constraint(equalTo: <#parentView#>.topAnchor, constant: 0),
+        <#childView#>.bottomAnchor.constraint(equalTo: <#parentView#>.bottomAnchor, constant: 0),
+        <#childView#>.leadingAnchor.constraint(equalTo: <#parentView#>.leadingAnchor, constant: 0),
+        <#childView#>.trailingAnchor.constraint(equalTo: <#parentView#>.trailingAnchor, constant: 0)
+        ])
    ```
   </details>
 * A code block for creating object that implement TableCellGenerator and ViewBuilder protocols, `shortcut: implTableCellGenerator`. For more info about TableCellGenerator and ViewBuilder see [ReactiveDataDisplayManager](https://github.com/LastSprint/ReactiveDataDisplayManager).
@@ -173,6 +173,16 @@ rm -rf XcodeCodeSnippets
             <#code for building cell#>
         }
     }
+   ```
+  </details>
+  
+* A code block for creating user property in NSNotification.Name extension, `shortcut: NSNotification Name`
+  <details>
+  <summary>Code</summary>
+  <br>
+ 
+   ```
+  static let <#notificationName#> = NSNotification.Name("<#projectName#>.notifications.<#notificationName#>")
    ```
   </details>
 
