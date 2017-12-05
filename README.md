@@ -19,11 +19,12 @@ rm -rf XcodeCodeSnippets
 
 ### List of snippets
 #### Comments
+* // MARK: - Public methods, `shortcut: Public methods`
 * // MARK: - Internal methods, `shortcut: Internal methods`
+* // MARK: - Private methods, `shortcut: Private methods`
 * // MARK: - Constants, `shortcut: Constants`
 * // MARK: - IBOutlets, `shortcut: IBOutlets`
 * // MARK: - IBActions, `shortcut: IBActions`
-* // MARK: - Private helpers, `shortcut: Private helpers`
 * // MARK: - Initialization and deinitialization, `shortcut: Initialization and deinitialization`
 * // MARK: - Properties, `shortcut: Properties`
 * // MARK: - NSLayoutConstraints, `shortcut: NSLayoutConstraints`
