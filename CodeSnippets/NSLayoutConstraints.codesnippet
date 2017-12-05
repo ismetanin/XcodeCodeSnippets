@@ -6,10 +6,10 @@
 	<string>NSLayoutConstraints</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>StringOrComment</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>MARK: - NSLayoutConstraints</string>
+	<string>// MARK: - NSLayoutConstraints</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3A152FED-5077-473A-B94A-90663568A043</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -19,6 +19,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
