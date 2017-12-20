@@ -9,7 +9,7 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>class &lt;#name#&gt;Generator {
+	<string>final class &lt;#name#&gt;Generator {
 
     // MARK: - Events
 
@@ -36,7 +36,9 @@ extension &lt;#name#&gt;Generator: TableCellGenerator {
 
     func generate(tableView: UITableView, for indexPath: IndexPath) -&gt; UITableViewCell {
 
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: self.identifier.nameOfClass, for: indexPath) as? &lt;#cell type#&gt; else { return UITableViewCell() }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: self.identifier.nameOfClass, for: indexPath) as? &lt;#cell type#&gt; else {
+            return UITableViewCell()
+        }
 
         self.build(view: cell)
 
@@ -64,6 +66,6 @@ extension &lt;#name#&gt;Generator: ViewBuilder {
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
