@@ -20,6 +20,7 @@ rm -rf XcodeCodeSnippets
 
 ### List of snippets
 #### Comments
+* // MARK: - , `shortcut: mark`
 * // MARK: - Public methods, `shortcut: Public methods`
 * // MARK: - Internal methods, `shortcut: Internal methods`
 * // MARK: - Private methods, `shortcut: Private methods`
