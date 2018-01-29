@@ -36,7 +36,7 @@ rm -rf XcodeCodeSnippets
   <summary>Code</summary>
   <br>
 
-   ```
+   ```swift
    import UIKit
 
    protocol <#Your#>ViewAdapterOutput {
@@ -104,7 +104,7 @@ rm -rf XcodeCodeSnippets
   <summary>Code</summary>
   <br>
 
-   ```
+   ```swift
     var <#defaultsKey#>: <#Type#> {
         get { return <#typeof#>(forKey: #function) }
         set { set(newValue, forKey: #function) }
@@ -116,7 +116,7 @@ rm -rf XcodeCodeSnippets
   <summary>Code</summary>
   <br>
 
-   ```
+   ```swift
     <#childView#>.translatesAutoresizingMaskIntoConstraints = false
 
     NSLayoutConstraint.activate([
@@ -132,7 +132,7 @@ rm -rf XcodeCodeSnippets
   <summary>Code</summary>
   <br>
 
-   ```
+   ```swift
     class <#name#>Generator {
 
         // MARK: - Events
@@ -184,7 +184,7 @@ rm -rf XcodeCodeSnippets
   <summary>Code</summary>
   <br>
  
-   ```
+   ```swift
   static let <#notificationName#> = NSNotification.Name("<#projectName#>.notifications.<#notificationName#>")
    ```
   </details>
