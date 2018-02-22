@@ -30,6 +30,7 @@ rm -rf XcodeCodeSnippets
 * // MARK: - Initialization and deinitialization, `shortcut: Initialization and deinitialization`
 * // MARK: - Properties, `shortcut: Properties`
 * // MARK: - NSLayoutConstraints, `shortcut: NSLayoutConstraints`
+* // MARK: - Nested types, `shortcut: Nested types`
 #### Code
 * A template for creating TableViewAdapter, `shortcut: Table View Adapter`
   <details>
