@@ -12,8 +12,6 @@
 	<string>&lt;#childView#&gt;.translatesAutoresizingMaskIntoConstraints = false
 
         if #available(iOS 11.0, *) {
-            &lt;#childView#&gt;.translatesAutoresizingMaskIntoConstraints = false
-
             NSLayoutConstraint.activate([
                 &lt;#childView#&gt;.topAnchor.constraint(equalTo: &lt;#parentView#&gt;.safeAreaLayoutGuide.topAnchor, constant: 0),
                 &lt;#childView#&gt;.bottomAnchor.constraint(equalTo: &lt;#parentView#&gt;.safeAreaLayoutGuide.bottomAnchor, constant: 0),
@@ -21,8 +19,6 @@
                 &lt;#childView#&gt;.trailingAnchor.constraint(equalTo: &lt;#parentView#&gt;.safeAreaLayoutGuide.trailingAnchor, constant: 0)
             ])
         } else {
-            &lt;#childView#&gt;.translatesAutoresizingMaskIntoConstraints = false
-
             NSLayoutConstraint.activate([
                 &lt;#childView#&gt;.topAnchor.constraint(equalTo: &lt;#parentView#&gt;.topAnchor, constant: 0),
                 &lt;#childView#&gt;.bottomAnchor.constraint(equalTo: &lt;#parentView#&gt;.bottomAnchor, constant: 0),
