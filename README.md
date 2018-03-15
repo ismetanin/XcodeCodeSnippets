@@ -120,12 +120,21 @@ rm -rf XcodeCodeSnippets
    ```swift
     <#childView#>.translatesAutoresizingMaskIntoConstraints = false
 
-    NSLayoutConstraint.activate([
-        <#childView#>.topAnchor.constraint(equalTo: <#parentView#>.topAnchor, constant: 0),
-        <#childView#>.bottomAnchor.constraint(equalTo: <#parentView#>.bottomAnchor, constant: 0),
-        <#childView#>.leadingAnchor.constraint(equalTo: <#parentView#>.leadingAnchor, constant: 0),
-        <#childView#>.trailingAnchor.constraint(equalTo: <#parentView#>.trailingAnchor, constant: 0)
-        ])
+    if #available(iOS 11.0, *) {
+        NSLayoutConstraint.activate([
+            <#childView#>.topAnchor.constraint(equalTo: <#parentView#>.safeAreaLayoutGuide.topAnchor, constant: 0),
+            <#childView#>.bottomAnchor.constraint(equalTo: <#parentView#>.safeAreaLayoutGuide.bottomAnchor, constant: 0),
+            <#childView#>.leadingAnchor.constraint(equalTo: <#parentView#>.safeAreaLayoutGuide.leadingAnchor, constant: 0),
+            <#childView#>.trailingAnchor.constraint(equalTo: <#parentView#>.safeAreaLayoutGuide.trailingAnchor, constant: 0)
+            ])
+    } else {
+        NSLayoutConstraint.activate([
+            <#childView#>.topAnchor.constraint(equalTo: <#parentView#>.topAnchor, constant: 0),
+            <#childView#>.bottomAnchor.constraint(equalTo: <#parentView#>.bottomAnchor, constant: 0),
+            <#childView#>.leadingAnchor.constraint(equalTo: <#parentView#>.leadingAnchor, constant: 0),
+            <#childView#>.trailingAnchor.constraint(equalTo: <#parentView#>.trailingAnchor, constant: 0)
+            ])
+    }
    ```
   </details>
 * A code block for creating object that implement TableCellGenerator and ViewBuilder protocols, `shortcut: implTableCellGenerator`. For more info about TableCellGenerator and ViewBuilder see [ReactiveDataDisplayManager](https://github.com/LastSprint/ReactiveDataDisplayManager).
