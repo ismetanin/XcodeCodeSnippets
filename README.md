@@ -10,6 +10,7 @@ To install or update the snippets you need:
   * Quit Xcode
   * On the command line:
   ```
+  cd ~/Downloads
   git clone https://github.com/ismetanin/XcodeCodeSnippets
 mkdir -p $HOME/Library/Developer/Xcode/UserData/CodeSnippets
 cp XcodeCodeSnippets/CodeSnippets/* $HOME/Library/Developer/Xcode/UserData/CodeSnippets
