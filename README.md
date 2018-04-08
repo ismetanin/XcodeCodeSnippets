@@ -26,12 +26,14 @@ rm -rf XcodeCodeSnippets
 * // MARK: - Internal methods, `shortcut: Internal methods`
 * // MARK: - Private methods, `shortcut: Private methods`
 * // MARK: - Constants, `shortcut: Constants`
-* // MARK: - IBOutlets, `shortcut: IBOutlets`
-* // MARK: - IBActions, `shortcut: IBActions`
+* // MARK: - IBOutlets, `shortcut: IBOutletsMARK`
+* // MARK: - IBActions, `shortcut: IBActionsMARK`
 * // MARK: - Initialization and deinitialization, `shortcut: Initialization and deinitialization`
 * // MARK: - Properties, `shortcut: Properties`
-* // MARK: - NSLayoutConstraints, `shortcut: NSLayoutConstraints`
+* // MARK: - NSLayoutConstraints, `shortcut: NSLayoutConstraintsMARK`
 * // MARK: - Nested types, `shortcut: Nested types`
+* // MARK: - UITableViewCell, `shortcut: UITableViewCellMARK`
+* // MARK: - UIViewController, `shortcut: UIViewControllerMARK`
 #### Code
 * A template for creating TableViewAdapter, `shortcut: Table View Adapter`
   <details>
