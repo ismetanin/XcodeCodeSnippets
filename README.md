@@ -21,19 +21,19 @@ rm -rf XcodeCodeSnippets
 
 ### List of snippets
 #### Comments
-* // MARK: - , `shortcut: mark`
-* // MARK: - Public methods, `shortcut: Public methods`
-* // MARK: - Internal methods, `shortcut: Internal methods`
-* // MARK: - Private methods, `shortcut: Private methods`
-* // MARK: - Constants, `shortcut: Constants`
-* // MARK: - IBOutlets, `shortcut: IBOutletsMARK`
-* // MARK: - IBActions, `shortcut: IBActionsMARK`
-* // MARK: - Initialization and deinitialization, `shortcut: Initialization and deinitialization`
-* // MARK: - Properties, `shortcut: Properties`
-* // MARK: - NSLayoutConstraints, `shortcut: NSLayoutConstraintsMARK`
-* // MARK: - Nested types, `shortcut: Nested types`
-* // MARK: - UITableViewCell, `shortcut: UITableViewCellMARK`
-* // MARK: - UIViewController, `shortcut: UIViewControllerMARK`
+* Snippet: `// MARK: - `, shortcut: `mark`
+* Snippet: `// MARK: - Public methods`, shortcut: `Public methods`
+* Snippet: `// MARK: - Internal methods`, shortcut: `Internal methods`
+* Snippet: `// MARK: - Private methods`, shortcut: `Private methods`
+* Snippet: `// MARK: - Constants`, shortcut: `Constants`
+* Snippet: `// MARK: - IBOutlets`, shortcut: `IBOutletsMARK`
+* Snippet: `// MARK: - IBActions`, shortcut: `IBActionsMARK`
+* Snippet: `// MARK: - Initialization and deinitialization`, shortcut: `Initialization and deinitialization`
+* Snippet: `// MARK: - Properties`, shortcut: `Properties`
+* Snippet: `// MARK: - NSLayoutConstraints`, shortcut: `NSLayoutConstraintsMARK`
+* Snippet: `// MARK: - Nested types`, shortcut: `Nested types`
+* Snippet: `// MARK: - UITableViewCell`, shortcut: `UITableViewCellMARK`
+* Snippet: `// MARK: - UIViewController`, shortcut: `UIViewControllerMARK`
 #### Code
 * A template for creating TableViewAdapter, `shortcut: Table View Adapter`
   <details>
