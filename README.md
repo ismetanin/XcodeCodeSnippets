@@ -140,7 +140,7 @@ rm -rf XcodeCodeSnippets
     }
    ```
   </details>
-* A code block for creating object that implement TableCellGenerator and ViewBuilder protocols, `shortcut: implTableCellGenerator`. For more info about TableCellGenerator and ViewBuilder see [ReactiveDataDisplayManager](https://github.com/LastSprint/ReactiveDataDisplayManager).
+* A code block for creating object that implement TableCellGenerator and ViewBuilder protocols, **shortcut:** `implTableCellGenerator`. For more info about TableCellGenerator and ViewBuilder see [ReactiveDataDisplayManager](https://github.com/LastSprint/ReactiveDataDisplayManager).
   <details>
   <summary>Code</summary>
   <br>
