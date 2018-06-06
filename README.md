@@ -35,7 +35,7 @@ rm -rf XcodeCodeSnippets
 * **Snippet:** `// MARK: - UITableViewCell`, **shortcut:** `UITableViewCellMARK`
 * **Snippet:** `// MARK: - UIViewController`, **shortcut:** `UIViewControllerMARK`
 #### Code
-* A template for creating TableViewAdapter, `shortcut: Table View Adapter`
+* A template for creating TableViewAdapter, **shortcut:** `Table View Adapter`
   <details>
   <summary>Code</summary>
   <br>
@@ -103,7 +103,7 @@ rm -rf XcodeCodeSnippets
    }
    ```
   </details>
-* A code block for creating user property in UserDefaults extension, `shortcut: Defaults Key`
+* A code block for creating user property in UserDefaults extension, **shortcut:** `Defaults Key`
   <details>
   <summary>Code</summary>
   <br>
@@ -115,7 +115,7 @@ rm -rf XcodeCodeSnippets
     }
    ```
   </details>
-* A code block for layouting child view anchors equal to a parent view anchors, `shortcut: Constraints - layout child as parent`
+* A code block for layouting child view anchors equal to a parent view anchors, **shortcut:** `Constraints - layout child as parent`
   <details>
   <summary>Code</summary>
   <br>
@@ -192,7 +192,7 @@ rm -rf XcodeCodeSnippets
    ```
   </details>
   
-* A code block for creating user property in NSNotification.Name extension, `shortcut: NSNotification Name`
+* A code block for creating user property in NSNotification.Name extension, **shortcut:** `NSNotification Name`
   <details>
   <summary>Code</summary>
   <br>
