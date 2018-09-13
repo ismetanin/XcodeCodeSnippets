@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>MARK: - Public methods</string>
+	<string>// MARK: - Public methods</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5630C993-1A88-44B3-A07D-0C8491A6BA4A</string>
 	<key>IDECodeSnippetLanguage</key>
