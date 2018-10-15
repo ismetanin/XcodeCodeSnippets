@@ -216,6 +216,20 @@ rm -rf XcodeCodeSnippets
 
    ```
   </details>
+* A code block for creating template constants enum, **shortcut:** `Constants enum`
+  <details>
+  <summary>Code</summary>
+  <br>
+
+   ```swift
+    // MARK: - Enums
+    
+    private enum Constants {
+        
+    }
+
+   ```
+  </details>
 
 ### Author
 
