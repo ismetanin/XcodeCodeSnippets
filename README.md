@@ -201,6 +201,21 @@ rm -rf XcodeCodeSnippets
   static let <#notificationName#> = NSNotification.Name("<#projectName#>.notifications.<#notificationName#>")
    ```
   </details>
+  
+* A code block for creating template comments for unit test, **shortcut:** `Unit test template`
+  <details>
+  <summary>Code</summary>
+  <br>
+
+   ```swift
+  // given
+
+  // when
+
+  // then
+
+   ```
+  </details>
 
 ### Author
 
