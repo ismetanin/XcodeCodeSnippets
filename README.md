@@ -216,6 +216,39 @@ rm -rf XcodeCodeSnippets
 
    ```
   </details>
+  
+ * A code block for creating keyboard notifications detector, **shortcut:** `Keyboard detector`
+  <details>
+  <summary>Code</summary>
+  <br>
+
+   ```swift
+func addKeyboardObservers() {
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(keyboardWillShow),
+                                               name: UIResponder.keyboardWillShowNotification,
+                                               object: nil)
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(keyboardWillHide),
+                                               name: UIResponder.keyboardWillHideNotification,
+                                               object: nil)
+    }
+    
+    @objc
+    func keyboardWillShow(notification: NSNotification) {
+        guard
+            let frame = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue
+        else {
+            return
+        }
+    }
+    
+    @objc
+    func keyboardWillHide() {
+        
+    }
+   ```
+  </details>
 
 ### Author
 
