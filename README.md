@@ -217,13 +217,25 @@ rm -rf XcodeCodeSnippets
    ```
   </details>
   
- * A code block for creating keyboard notifications detector, **shortcut:** `Keyboard detector`
+* A code block for creating template constants enum, **shortcut:** `Constants enum`
+  <details>
+  <summary>Code</summary>
+  <br>
+   ```swift
+    // MARK: - Enums
+    
+    private enum Constants {
+        
+    }
+    ```
+   </details>
+* A code block for creating keyboard notifications detector, **shortcut:** `Keyboard detector`
   <details>
   <summary>Code</summary>
   <br>
 
    ```swift
-func addKeyboardObservers() {
+  func addKeyboardObservers() {
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(keyboardWillShow),
                                                name: UIResponder.keyboardWillShowNotification,
