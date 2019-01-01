@@ -9,50 +9,57 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>final class &lt;#name#&gt;Generator {
+	<string>import ReactiveDataDisplayManager
+
+final class &lt;#name#&gt;Generator {
 
     // MARK: - Events
 
     &lt;#events declarations#&gt;
 
-    // MARK: - Stored properties
+    // MARK: - Properties
 
-    fileprivate let model: &lt;#model type#&gt;
+    private var model: &lt;#model type#&gt;
 
     // MARK: - Initializers
 
-    public init(model: &lt;#model type#&gt;) {
+    init(model: &lt;#model type#&gt;) {
         self.model = model
     }
+
 }
 
 // MARK: - TableCellGenerator
 
 extension &lt;#name#&gt;Generator: TableCellGenerator {
-
+    
     var identifier: UITableViewCell.Type {
         return &lt;#cell type#&gt;.self
     }
-
+    
     func generate(tableView: UITableView, for indexPath: IndexPath) -&gt; UITableViewCell {
-
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: self.identifier.nameOfClass, for: indexPath) as? &lt;#cell type#&gt; else {
+        guard let cell = tableView.dequeueReusableCell(
+            withIdentifier: self.identifier.nameOfClass,
+            for: indexPath
+        ) as? &lt;#cell type#&gt; else {
             return UITableViewCell()
         }
-
+        
         self.build(view: cell)
-
+        
         return cell
     }
+    
 }
 
 // MARK: - ViewBuilder
 
 extension &lt;#name#&gt;Generator: ViewBuilder {
-
+    
     func build(view: &lt;#cell type#&gt;) {
         &lt;#code for building cell#&gt;
     }
+    
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -60,7 +67,7 @@ extension &lt;#name#&gt;Generator: ViewBuilder {
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Object tht implement TableCellGenerator and ViewBuilder</string>
+	<string>Object that implements TableCellGenerator and ViewBuilder protocols</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>TableCellGenerator</string>
 	<key>IDECodeSnippetUserSnippet</key>
