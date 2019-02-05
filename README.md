@@ -34,6 +34,7 @@ rm -rf XcodeCodeSnippets
 * **Snippet:** `// MARK: - Nested types`, **shortcut:** `Nested types`
 * **Snippet:** `// MARK: - UITableViewCell`, **shortcut:** `UITableViewCellMARK`
 * **Snippet:** `// MARK: - UIViewController`, **shortcut:** `UIViewControllerMARK`
+* **Snippet:** `// MARK: - Subviews`, **shortcut:** `Subviews mark`
 #### Code
 * A template for creating TableViewAdapter, **shortcut:** `Table View Adapter`
   <details>
