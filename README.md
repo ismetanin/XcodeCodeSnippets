@@ -30,10 +30,12 @@ rm -rf XcodeCodeSnippets
 * **Snippet:** `// MARK: - IBActions`, **shortcut:** `IBActionsMARK`
 * **Snippet:** `// MARK: - Initialization and deinitialization`, **shortcut:** `Initialization and deinitialization`
 * **Snippet:** `// MARK: - Properties`, **shortcut:** `Properties`
+* **Snippet:** `// MARK: - Public properties`, **shortcut:** `Public properties mark`
 * **Snippet:** `// MARK: - NSLayoutConstraints`, **shortcut:** `NSLayoutConstraintsMARK`
 * **Snippet:** `// MARK: - Nested types`, **shortcut:** `Nested types`
 * **Snippet:** `// MARK: - UITableViewCell`, **shortcut:** `UITableViewCellMARK`
 * **Snippet:** `// MARK: - UIViewController`, **shortcut:** `UIViewControllerMARK`
+* **Snippet:** `// MARK: - Subviews`, **shortcut:** `Subviews mark`
 #### Code
 * A template for creating TableViewAdapter, **shortcut:** `Table View Adapter`
   <details>
