@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    // MARK: - Enums
+	<string>    // MARK: - Nested types
     
     private enum Constants {
         

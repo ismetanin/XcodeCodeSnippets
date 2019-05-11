@@ -18,12 +18,12 @@ final class &lt;#Your#&gt;TableViewAdapter: NSObject {
 
     // MARK: - Constants
 
-    fileprivate let output: &lt;#Your#&gt;ViewAdapterOutput
+    private let output: &lt;#Your#&gt;ViewAdapterOutput
 
     // MARK: - Properties
 
-    fileprivate var items: [&lt;#ItemsType#&gt;]
-    fileprivate (set) var tableView: UITableView {
+    private var items: [&lt;#ItemsType#&gt;]
+    private (set) var tableView: UITableView {
         didSet {
             tableView.register(UINib(nibName: &lt;#CellName#&gt;, bundle: nil), forCellReuseIdentifier: &lt;#CellName#&gt;)
         }

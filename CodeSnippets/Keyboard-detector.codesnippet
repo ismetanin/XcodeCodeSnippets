@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    func addKeyboardObservers() {
+	<string>    private func addKeyboardObservers() {
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(keyboardWillShow),
                                                name: UIResponder.keyboardWillShowNotification,
@@ -21,7 +21,7 @@
     }
     
     @objc
-    func keyboardWillShow(notification: NSNotification) {
+    private func keyboardWillShow(notification: NSNotification) {
         guard
             let frame = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue
         else {
@@ -30,18 +30,18 @@
     }
     
     @objc
-    func keyboardWillHide() {
+    private func keyboardWillHide() {
         
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E0D59407-8BBD-4C7D-A1E2-8BEFC1382739</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Keyboard detector</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
