@@ -2,10 +2,10 @@
 # XcodeCodeSnippets
 A set of snippets for Xcode.
 
-### Requirements
+## Requirements
 Xcode 7.3.1 or later.
 
-### Installation
+## Installation
 To install or update the snippets you need:
   * Quit Xcode
   * On the command line:
@@ -19,8 +19,8 @@ rm -rf XcodeCodeSnippets
   Or if you have a cloned repository:
   * On the command line, cd into the directory with snippets and write `sh ./install.sh`
 
-### List of snippets
-#### Comments
+## List of snippets
+### MARKs
 * **Snippet:** `// MARK: - `, **shortcut:** `mark`
 * **Snippet:** `// MARK: - Public methods`, **shortcut:** `Public methods`
 * **Snippet:** `// MARK: - Internal methods`, **shortcut:** `Internal methods`
@@ -36,7 +36,7 @@ rm -rf XcodeCodeSnippets
 * **Snippet:** `// MARK: - UITableViewCell`, **shortcut:** `UITableViewCellMARK`
 * **Snippet:** `// MARK: - UIViewController`, **shortcut:** `UIViewControllerMARK`
 * **Snippet:** `// MARK: - Subviews`, **shortcut:** `Subviews mark`
-#### Code
+### Code
 * A template for creating TableViewAdapter, **shortcut:** `Table View Adapter`
   <details>
   <summary>Code</summary>
@@ -52,12 +52,12 @@ rm -rf XcodeCodeSnippets
 
        // MARK: - Constants
 
-       fileprivate let output: <#Your#>ViewAdapterOutput
+       private let output: <#Your#>ViewAdapterOutput
 
        // MARK: - Properties
 
-       fileprivate var items: [<#ItemsType#>]
-       fileprivate (set) var tableView: UITableView {
+       private var items: [<#ItemsType#>]
+       private (set) var tableView: UITableView {
            didSet {
                tableView.register(UINib(nibName: <#CellName#>, bundle: nil), forCellReuseIdentifier: <#CellName#>)
            }
@@ -142,57 +142,6 @@ rm -rf XcodeCodeSnippets
     }
    ```
   </details>
-* A code block for creating object that implement TableCellGenerator and ViewBuilder protocols, **shortcut:** `implTableCellGenerator`. For more info about TableCellGenerator and ViewBuilder see [ReactiveDataDisplayManager](https://github.com/LastSprint/ReactiveDataDisplayManager).
-  <details>
-  <summary>Code</summary>
-  <br>
-
-   ```swift
-    class <#name#>Generator {
-
-        // MARK: - Events
-
-        <#events declarations#>
-
-        // MARK: - Stored properties
-
-        fileprivate let model: <#model type#>
-
-        // MARK: - Initializers
-
-        public init(model: <#model type#>) {
-            self.model = model
-        }
-    }
-
-    // MARK: - TableCellGenerator
-
-    extension <#name#>Generator: TableCellGenerator {
-
-        var identifier: UITableViewCell.Type {
-            return <#cell type#>.self
-        }
-
-        func generate(tableView: UITableView, for indexPath: IndexPath) -> UITableViewCell {
-
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: self.identifier.nameOfClass, for: indexPath) as? <#cell type#> else { return UITableViewCell() }
-
-            self.build(view: cell)
-
-            return cell
-        }
-    }
-
-    // MARK: - ViewBuilder
-
-    extension <#name#>Generator: ViewBuilder {
-
-        func build(view: <#cell type#>) {
-            <#code for building cell#>
-        }
-    }
-   ```
-  </details>
   
 * A code block for creating user property in NSNotification.Name extension, **shortcut:** `NSNotification Name`
   <details>
@@ -204,7 +153,7 @@ rm -rf XcodeCodeSnippets
    ```
   </details>
   
-* A code block for creating template comments for unit test, **shortcut:** `Unit test template`
+* A code block for creating template comments for unit test, **shortcut:** `testtemplate`
   <details>
   <summary>Code</summary>
   <br>
@@ -225,7 +174,7 @@ rm -rf XcodeCodeSnippets
   <br>
  
    ```swift
-    // MARK: - Enums
+    // MARK: - Nested types
     
     private enum Constants {
         
