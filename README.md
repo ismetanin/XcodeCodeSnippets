@@ -35,7 +35,7 @@ rm -rf XcodeCodeSnippets
 * **Snippet:** `// MARK: - Public methods`, **shortcut:** `Public methods`
 * **Snippet:** `// MARK: - Internal methods`, **shortcut:** `Internal methods`
 * **Snippet:** `// MARK: - Private methods`, **shortcut:** `Private methods`
-* **Snippet:** `// MARK: - Constants`, **shortcut:** `Constants`
+* **Snippet:** `// MARK: - Constants`, **shortcut:** `ConstantsMARK`
 * **Snippet:** `// MARK: - IBOutlets`, **shortcut:** `IBOutletsMARK`
 * **Snippet:** `// MARK: - IBActions`, **shortcut:** `IBActionsMARK`
 * **Snippet:** `// MARK: - Initialization and deinitialization`, **shortcut:** `Initialization and deinitialization`
@@ -47,6 +47,7 @@ rm -rf XcodeCodeSnippets
 * **Snippet:** `// MARK: - UIViewController`, **shortcut:** `UIViewControllerMARK`
 * **Snippet:** `// MARK: - Subviews`, **shortcut:** `Subviews mark`
 * **Snippet:** `// MARK: - Actions`, **shortcut:** `Actions mark`
+* **Snippet:** `// MARK: - Readonly properties`, **shortcut:** `Readonly properties`
 
 ### Code
 
