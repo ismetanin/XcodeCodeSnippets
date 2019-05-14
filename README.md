@@ -1,27 +1,37 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 # XcodeCodeSnippets
+
 A set of snippets for Xcode.
 
 ## Requirements
+
 Xcode 7.3.1 or later.
 
 ## Installation
+
 To install or update the snippets you need:
-  * Quit Xcode
-  * On the command line:
-  ```
-  cd ~/Downloads
-  git clone https://github.com/ismetanin/XcodeCodeSnippets
+
+* Quit Xcode
+* On the command line:
+
+```
+cd ~/Downloads
+git clone https://github.com/ismetanin/XcodeCodeSnippets
 mkdir -p $HOME/Library/Developer/Xcode/UserData/CodeSnippets
 cp XcodeCodeSnippets/CodeSnippets/* $HOME/Library/Developer/Xcode/UserData/CodeSnippets
 rm -rf XcodeCodeSnippets
-  ```
+```
+
   Or if you have a cloned repository:
-  * On the command line, cd into the directory with snippets and write `sh ./install.sh`
+
+* On the command line, cd into the directory with snippets and write `sh ./install.sh`
 
 ## List of snippets
+
 ### MARKs
-* **Snippet:** `// MARK: - `, **shortcut:** `mark`
+
+* **Snippet:** `// MARK: -`, **shortcut:** `mark`
 * **Snippet:** `// MARK: - Public methods`, **shortcut:** `Public methods`
 * **Snippet:** `// MARK: - Internal methods`, **shortcut:** `Internal methods`
 * **Snippet:** `// MARK: - Private methods`, **shortcut:** `Private methods`
@@ -36,7 +46,10 @@ rm -rf XcodeCodeSnippets
 * **Snippet:** `// MARK: - UITableViewCell`, **shortcut:** `UITableViewCellMARK`
 * **Snippet:** `// MARK: - UIViewController`, **shortcut:** `UIViewControllerMARK`
 * **Snippet:** `// MARK: - Subviews`, **shortcut:** `Subviews mark`
+* **Snippet:** `// MARK: - Actions`, **shortcut:** `Actions mark`
+
 ### Code
+
 * A template for creating TableViewAdapter, **shortcut:** `Table View Adapter`
   <details>
   <summary>Code</summary>
@@ -104,6 +117,7 @@ rm -rf XcodeCodeSnippets
        }
    }
    ```
+
   </details>
 * A code block for creating user property in UserDefaults extension, **shortcut:** `Defaults Key`
   <details>
@@ -116,6 +130,7 @@ rm -rf XcodeCodeSnippets
         set { set(newValue, forKey: #function) }
     }
    ```
+
   </details>
 * A code block for layouting child view anchors equal to a parent view anchors, **shortcut:** `Constraints - layout child as parent`
   <details>
@@ -141,16 +156,18 @@ rm -rf XcodeCodeSnippets
             ])
     }
    ```
+
   </details>
   
 * A code block for creating user property in NSNotification.Name extension, **shortcut:** `NSNotification Name`
   <details>
   <summary>Code</summary>
   <br>
- 
+
    ```swift
   static let <#notificationName#> = NSNotification.Name("<#projectName#>.notifications.<#notificationName#>")
    ```
+
   </details>
   
 * A code block for creating template comments for unit test, **shortcut:** `testtemplate`
@@ -166,20 +183,22 @@ rm -rf XcodeCodeSnippets
   // then
 
    ```
+
   </details>
   
 * A code block for creating template constants enum, **shortcut:** `Constants enum`
   <details>
   <summary>Code</summary>
   <br>
- 
+
    ```swift
     // MARK: - Nested types
-    
+
     private enum Constants {
-        
+
     }
     ```
+
    </details>
 * A code block for creating keyboard notifications detector, **shortcut:** `Keyboard detector`
   <details>
@@ -197,7 +216,7 @@ rm -rf XcodeCodeSnippets
                                                name: UIResponder.keyboardWillHideNotification,
                                                object: nil)
     }
-    
+
     @objc
     func keyboardWillShow(notification: NSNotification) {
         guard
@@ -206,12 +225,13 @@ rm -rf XcodeCodeSnippets
             return
         }
     }
-    
+
     @objc
     func keyboardWillHide() {
-        
+
     }
    ```
+
   </details>
 
 ### Author
