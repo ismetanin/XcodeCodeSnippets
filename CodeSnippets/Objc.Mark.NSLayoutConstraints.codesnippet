@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Public methods</string>
+	<string>MARK.NSLayoutConstraints</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Public methods</string>
+	<string>#pragma mark - NSLayoutConstraints</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5630C993-1A88-44B3-A07D-0C8491A6BA4A</string>
+	<string>050BC3F4-D72A-476A-9084-FC4478F8A8D3</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Public methods MARK</string>
+	<string>Objective C mark - NSLayoutConstraints</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

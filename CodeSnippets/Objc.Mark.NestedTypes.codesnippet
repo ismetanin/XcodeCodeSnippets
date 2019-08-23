@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>UIViewControllerMARK</string>
+	<string>MARK.Nested types</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - UIViewController</string>
+	<string>#pragma mark - Nested types</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2C8AD754-858D-4862-9921-C1A261C8E5C7</string>
+	<string>9B052FFD-9F4A-4FAB-A1EF-4C40B8D343B0</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UIViewController MARK</string>
+	<string>Objective C mark - Nested types</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

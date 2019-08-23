@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Private methods</string>
+	<string>MARK.Constants</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Private methods</string>
+	<string>// MARK: - Constants</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8019B756-5867-4995-9CD1-FE695546E731</string>
+	<string>19B5FE13-52D3-49E1-B64C-809E62F5F483</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Private methods MARK</string>
+	<string>Constants MARK</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

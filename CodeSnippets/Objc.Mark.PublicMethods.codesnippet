@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>NSNotification name</string>
+	<string>MARK.Public methods</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static let &lt;#notificationName#&gt; = NSNotification.Name("&lt;#projectName#&gt;.notifications.&lt;#notificationName#&gt;")</string>
+	<string>#pragma mark - Public methods</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EFD03CB6-B661-4D10-9B33-73EAE0E09115</string>
+	<string>B33BF2FD-1CE8-4B48-B2D9-67542B1896A4</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Add new NSNotification name</string>
+	<string>Objective C mark - Public methods</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Public properties mark</string>
+	<string>MARK.IBOutlets</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: Public properties</string>
+	<string>// MARK: - IBOutlets</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EEB2E473-A350-421D-873D-F0167D8187EF</string>
+	<string>9E24F6FE-6618-48C6-B2B6-79376FDEAB32</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Public properies MARK</string>
+	<string>IBOutlets MARK</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

@@ -31,23 +31,27 @@ rm -rf XcodeCodeSnippets
 
 ### MARKs
 
-* **Snippet:** `// MARK: -`, **shortcut:** `mark`
-* **Snippet:** `// MARK: - Public methods`, **shortcut:** `Public methods`
-* **Snippet:** `// MARK: - Internal methods`, **shortcut:** `Internal methods`
-* **Snippet:** `// MARK: - Private methods`, **shortcut:** `Private methods`
-* **Snippet:** `// MARK: - Constants`, **shortcut:** `ConstantsMARK`
-* **Snippet:** `// MARK: - IBOutlets`, **shortcut:** `IBOutletsMARK`
-* **Snippet:** `// MARK: - IBActions`, **shortcut:** `IBActionsMARK`
-* **Snippet:** `// MARK: - Initialization and deinitialization`, **shortcut:** `Initialization and deinitialization`
-* **Snippet:** `// MARK: - Properties`, **shortcut:** `Properties`
-* **Snippet:** `// MARK: - Public properties`, **shortcut:** `Public properties mark`
-* **Snippet:** `// MARK: - NSLayoutConstraints`, **shortcut:** `NSLayoutConstraintsMARK`
-* **Snippet:** `// MARK: - Nested types`, **shortcut:** `Nested types`
-* **Snippet:** `// MARK: - UITableViewCell`, **shortcut:** `UITableViewCellMARK`
-* **Snippet:** `// MARK: - UIViewController`, **shortcut:** `UIViewControllerMARK`
-* **Snippet:** `// MARK: - Subviews`, **shortcut:** `Subviews mark`
-* **Snippet:** `// MARK: - Actions`, **shortcut:** `Actions mark`
-* **Snippet:** `// MARK: - Readonly properties`, **shortcut:** `Readonly properties`
+There are MARKs for Swift and Objective-C. For Swift there is prefix before each `// MARK: -`, and for Objective-C prefix is `#pragma mark -`
+
+|Snippet|Shortcut|
+|---|---|
+|Just empty mark (`// MARK: - ` or `#pragma mark - `)   |MARK                                  |
+|Nested types                                           |Nested types                          |
+|Constants                                              |Constants                             |
+|Subviews                                               |Subviews                              |
+|NSLayoutConstraints                                    |NSLayoutConstraints                   |
+|Properties                                             |Properties                            |
+|Public properties                                      |Public properties                     |
+|Readonly properties                                    |Readonly properties                   |
+|IBOutlets                                              |IBOutlets                             |
+|Initialization and deinitialization                    |Initialization and deinitialization   |
+|UITableViewCell                                        |UITableViewCell                       |
+|UIViewController                                       |UIViewController                      |
+|Actions                                                |Actions                               |
+|IBActions                                              |IBActions                             |
+|Public methods                                         |Public methods                        |
+|Internal methods                                       |Internal methods                      |
+|Private methods                                        |Private methods                       |
 
 ### Code
 

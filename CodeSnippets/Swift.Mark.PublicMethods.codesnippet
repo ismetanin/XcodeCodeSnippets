@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>UITableViewCellMARK</string>
+	<string>MARK.Public methods</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - UITableViewCell</string>
+	<string>// MARK: - Public methods</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F92FD887-0CD9-4897-90EF-62D507D76C7A</string>
+	<string>5630C993-1A88-44B3-A07D-0C8491A6BA4A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UITableViewCell MARK</string>
+	<string>Public methods MARK</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Initialization and deinitialization</string>
+	<string>MARK.IBActions</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Initialization and deinitialization</string>
+	<string>// MARK: - IBActions</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8B94553C-175D-42FB-BB94-B4E9D8CE3810</string>
+	<string>01C66613-3831-4DB9-9D4F-96EEEF538945</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Initialization and deinitialization MARK</string>
+	<string>IBActions MARK</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

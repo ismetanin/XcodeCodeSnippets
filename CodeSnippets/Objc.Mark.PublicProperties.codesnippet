@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Subviews mark</string>
+	<string>MARK.Public properties</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Subviews</string>
+	<string>#pragma mark - Public properties</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8BE67634-11D9-47B5-8724-2F96C088EB5F</string>
+	<string>5746E56D-C8E0-4725-90CE-9D28D0B46D56</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Subviews MARK</string>
+	<string>Objective C mark - Public properties</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

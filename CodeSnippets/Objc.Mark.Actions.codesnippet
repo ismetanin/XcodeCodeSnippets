@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>NSLayoutConstraintsMARK</string>
+	<string>MARK.Actions</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - NSLayoutConstraints</string>
+	<string>#pragma mark - Actions</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3A152FED-5077-473A-B94A-90663568A043</string>
+	<string>97583561-2AC0-45F0-9802-3B2EFDEED666</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSLayoutConstraints mark</string>
+	<string>Objective C mark -  Actions</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

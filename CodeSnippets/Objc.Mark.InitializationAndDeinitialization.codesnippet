@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>IBOutletsMARK</string>
+	<string>MARK.Initialization and deinitialization</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - IBOutlets</string>
+	<string>#pragma mark - Initialization and deinitialization</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9E24F6FE-6618-48C6-B2B6-79376FDEAB32</string>
+	<string>9684362F-8250-4FE8-B2BF-E660EFFD3CE4</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>IBOutlets MARK</string>
+	<string>Objective C mark - Initialization and deinitialization</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

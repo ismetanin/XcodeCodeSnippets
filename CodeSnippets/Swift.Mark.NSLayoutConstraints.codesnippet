@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Nested types</string>
+	<string>MARK.NSLayoutConstraints</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Nested types</string>
+	<string>// MARK: - NSLayoutConstraints</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>63A67752-F02E-4364-966A-0227D777D9CF</string>
+	<string>3A152FED-5077-473A-B94A-90663568A043</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Nested types MARK</string>
+	<string>NSLayoutConstraints mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

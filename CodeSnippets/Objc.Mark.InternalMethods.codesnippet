@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Readonly properties</string>
+	<string>MARK.Internal methods</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Readonly properties</string>
+	<string>#pragma mark - Internal methods</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>19B5FE13-52D3-49E1-B64C-809E62F5F483</string>
+	<string>9F70DB55-AD98-4C73-A493-D89CEB916E1B</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Readunly properties MARK</string>
+	<string>Objective C mark - Internal methods</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
