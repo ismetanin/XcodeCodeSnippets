@@ -35,7 +35,7 @@ There are MARKs for Swift and Objective-C. For Swift there is prefix before each
 
 |Snippet|Shortcut|
 |---|---|
-|Just empty mark (`// MARK: - ` or `#pragma mark - `)     |MARK                                    |
+|Just empty mark (`// MARK: - ` or `#pragma mark - `)     |`MARK`                                  |
 |`Nested types`                                           |`Nested types`                          |
 |`Constants`                                              |`Constants`                             |
 |`Subviews`                                               |`Subviews`                              |
