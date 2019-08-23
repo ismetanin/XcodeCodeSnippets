@@ -35,23 +35,23 @@ There are MARKs for Swift and Objective-C. For Swift there is prefix before each
 
 |Snippet|Shortcut|
 |---|---|
-|Just empty mark (`// MARK: - ` or `#pragma mark - `)   |MARK                                  |
-|Nested types                                           |Nested types                          |
-|Constants                                              |Constants                             |
-|Subviews                                               |Subviews                              |
-|NSLayoutConstraints                                    |NSLayoutConstraints                   |
-|Properties                                             |Properties                            |
-|Public properties                                      |Public properties                     |
-|Readonly properties                                    |Readonly properties                   |
-|IBOutlets                                              |IBOutlets                             |
-|Initialization and deinitialization                    |Initialization and deinitialization   |
-|UITableViewCell                                        |UITableViewCell                       |
-|UIViewController                                       |UIViewController                      |
-|Actions                                                |Actions                               |
-|IBActions                                              |IBActions                             |
-|Public methods                                         |Public methods                        |
-|Internal methods                                       |Internal methods                      |
-|Private methods                                        |Private methods                       |
+|Just empty mark (`// MARK: - ` or `#pragma mark - `)     |MARK                                    |
+|`Nested types`                                           |`Nested types`                          |
+|`Constants`                                              |`Constants`                             |
+|`Subviews`                                               |`Subviews`                              |
+|`NSLayoutConstraints`                                    |`NSLayoutConstraints`                   |
+|`Properties`                                             |`Properties`                            |
+|`Public properties`                                      |`Public properties`                     |
+|`Readonly properties`                                    |`Readonly properties`                   |
+|`IBOutlets`                                              |`IBOutlets`                             |
+|`Initialization and deinitialization`                    |`Initialization and deinitialization`   |
+|`UITableViewCell`                                        |`UITableViewCell`                       |
+|`UIViewController`                                       |`UIViewController`                      |
+|`Actions`                                                |`Actions`                               |
+|`IBActions`                                              |`IBActions`                             |
+|`Public methods`                                         |`Public methods`                        |
+|`Internal methods`                                       |`Internal methods`                      |
+|`Private methods`                                        |`Private methods`                       |
 
 ### Code
 
