@@ -31,7 +31,7 @@ rm -rf XcodeCodeSnippets
 
 ### MARKs
 
-There are MARKs for Swift and Objective-C. For Swift there is prefix before each `// MARK: -`, and for Objective-C prefix is `#pragma mark -`
+There are MARKs for Swift and Objective-C. For Swift there is prefix before each `// MARK: -` and for Objective-C prefix is `#pragma mark -`
 
 |Snippet|Shortcut|
 |---|---|
@@ -137,7 +137,7 @@ There are MARKs for Swift and Objective-C. For Swift there is prefix before each
    ```
 
   </details>
-* A code block for layouting child view anchors equal to a parent view anchors, **shortcut:** `Constraints - layout child as parent`
+* A code block for layouting child view anchors equal to the parent view anchors, **shortcut:** `Constraints - layout child as parent`
   <details>
   <summary>Code</summary>
   <br>
@@ -164,7 +164,7 @@ There are MARKs for Swift and Objective-C. For Swift there is prefix before each
 
   </details>
   
-* A code block for creating user property in NSNotification.Name extension, **shortcut:** `NSNotification Name`
+* A code block for user property creating in NSNotification.Name extension, **shortcut:** `NSNotification Name`
   <details>
   <summary>Code</summary>
   <br>
