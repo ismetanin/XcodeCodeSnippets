@@ -11,21 +11,12 @@
 	<key>IDECodeSnippetContents</key>
 	<string>&lt;#childView#&gt;.translatesAutoresizingMaskIntoConstraints = false
 
-        if #available(iOS 11.0, *) {
-            NSLayoutConstraint.activate([
-                &lt;#childView#&gt;.topAnchor.constraint(equalTo: &lt;#parentView#&gt;.safeAreaLayoutGuide.topAnchor, constant: 0),
-                &lt;#childView#&gt;.bottomAnchor.constraint(equalTo: &lt;#parentView#&gt;.safeAreaLayoutGuide.bottomAnchor, constant: 0),
-                &lt;#childView#&gt;.leadingAnchor.constraint(equalTo: &lt;#parentView#&gt;.safeAreaLayoutGuide.leadingAnchor, constant: 0),
-                &lt;#childView#&gt;.trailingAnchor.constraint(equalTo: &lt;#parentView#&gt;.safeAreaLayoutGuide.trailingAnchor, constant: 0)
-            ])
-        } else {
-            NSLayoutConstraint.activate([
-                &lt;#childView#&gt;.topAnchor.constraint(equalTo: &lt;#parentView#&gt;.topAnchor, constant: 0),
-                &lt;#childView#&gt;.bottomAnchor.constraint(equalTo: &lt;#parentView#&gt;.bottomAnchor, constant: 0),
-                &lt;#childView#&gt;.leadingAnchor.constraint(equalTo: &lt;#parentView#&gt;.leadingAnchor, constant: 0),
-                &lt;#childView#&gt;.trailingAnchor.constraint(equalTo: &lt;#parentView#&gt;.trailingAnchor, constant: 0)
-            ])
-        }</string>
+NSLayoutConstraint.activate([
+    &lt;#childView#&gt;.topAnchor.constraint(equalTo: &lt;#parentView#&gt;.safeAreaLayoutGuide.topAnchor, constant: 0),
+    &lt;#childView#&gt;.bottomAnchor.constraint(equalTo: &lt;#parentView#&gt;.safeAreaLayoutGuide.bottomAnchor, constant: 0),
+    &lt;#childView#&gt;.leadingAnchor.constraint(equalTo: &lt;#parentView#&gt;.safeAreaLayoutGuide.leadingAnchor, constant: 0),
+    &lt;#childView#&gt;.trailingAnchor.constraint(equalTo: &lt;#parentView#&gt;.safeAreaLayoutGuide.trailingAnchor, constant: 0)
+    ])</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AB7AB587-40D3-4B26-BF65-33DAEB5D19D2</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -61,66 +61,66 @@ There are MARKs for Swift and Objective-C. For Swift there is prefix before each
   <br>
 
    ```swift
-   import UIKit
+    import UIKit
 
-   protocol <#Your#>ViewAdapterOutput {
-   }
+    protocol <#Your#>ViewAdapterOutput {
+    }
 
-   final class <#Your#>TableViewAdapter: NSObject {
+    final class <#Your#>TableViewAdapter: NSObject {
 
-       // MARK: - Constants
+        // MARK: - Properties
 
-       private let output: <#Your#>ViewAdapterOutput
+        private let output: <#Your#>ViewAdapterOutput
 
-       // MARK: - Properties
+        private var items: [<#ItemsType#>]
+        private (set) var tableView: UITableView {
+            didSet {
+                tableView.register(UINib(nibName: <#CellName#>, bundle: nil), forCellReuseIdentifier: <#CellName#>)
+            }
+        }
 
-       private var items: [<#ItemsType#>]
-       private (set) var tableView: UITableView {
-           didSet {
-               tableView.register(UINib(nibName: <#CellName#>, bundle: nil), forCellReuseIdentifier: <#CellName#>)
-           }
-       }
+        // MARK: - Initialization and deinitialization
 
-       // MARK: - Initialization and deinitialization
+        init(output: <#Your#>ViewAdapterOutput) {
+            self.output = output
+        }
 
-       init(output: <#Your#>ViewAdapterOutput) {
-           self.output = output
-       }
+        // MARK: - Internal helpers
 
-       // MARK: - Internal helpers
+        func set(tableView: UITableView) {
+            self.tableView = tableView
+        }
 
-       func set(tableView: UITableView) {
-           self.tableView = tableView
-       }
+        func configure(with items: <#ItemsType#>) {
+            self.items = items
+        }
 
-       func configure(with items: <#ItemsType#>) {
-           self.items = items
-      }
+    }
 
-   }
+    // MARK: - UITableViewDataSource
 
+    extension <#Your#>TableViewAdapter: UITableViewDataSource {
 
-   // MARK: - UITableViewDataSource
+        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+            return items.count
+        }
 
-   extension <#Your#>TableViewAdapter: UITableViewDataSource {
-       func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-           return items.count
-       }
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+            let cell = UITableViewCell()
+            return cell
+        }
 
-       func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-           let cell = UITableViewCell()
-           return cell
-       }
-   }
+    }
 
+    // MARK: - UITableViewDelegate
 
-   // MARK: - UITableViewDelegate
+    extension <#Your#>TableViewAdapter: UITableViewDelegate {
 
-   extension <#Your#>TableViewAdapter: UITableViewDelegate {
-       func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-           tableView.deselectRow(at: indexPath, animated: true)
-       }
-   }
+        func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+            tableView.deselectRow(at: indexPath, animated: true)
+        }
+
+    }
    ```
 
   </details>
@@ -145,21 +145,12 @@ There are MARKs for Swift and Objective-C. For Swift there is prefix before each
    ```swift
     <#childView#>.translatesAutoresizingMaskIntoConstraints = false
 
-    if #available(iOS 11.0, *) {
-        NSLayoutConstraint.activate([
-            <#childView#>.topAnchor.constraint(equalTo: <#parentView#>.safeAreaLayoutGuide.topAnchor, constant: 0),
-            <#childView#>.bottomAnchor.constraint(equalTo: <#parentView#>.safeAreaLayoutGuide.bottomAnchor, constant: 0),
-            <#childView#>.leadingAnchor.constraint(equalTo: <#parentView#>.safeAreaLayoutGuide.leadingAnchor, constant: 0),
-            <#childView#>.trailingAnchor.constraint(equalTo: <#parentView#>.safeAreaLayoutGuide.trailingAnchor, constant: 0)
-            ])
-    } else {
-        NSLayoutConstraint.activate([
-            <#childView#>.topAnchor.constraint(equalTo: <#parentView#>.topAnchor, constant: 0),
-            <#childView#>.bottomAnchor.constraint(equalTo: <#parentView#>.bottomAnchor, constant: 0),
-            <#childView#>.leadingAnchor.constraint(equalTo: <#parentView#>.leadingAnchor, constant: 0),
-            <#childView#>.trailingAnchor.constraint(equalTo: <#parentView#>.trailingAnchor, constant: 0)
-            ])
-    }
+    NSLayoutConstraint.activate([
+        <#childView#>.topAnchor.constraint(equalTo: <#parentView#>.safeAreaLayoutGuide.topAnchor, constant: 0),
+        <#childView#>.bottomAnchor.constraint(equalTo: <#parentView#>.safeAreaLayoutGuide.bottomAnchor, constant: 0),
+        <#childView#>.leadingAnchor.constraint(equalTo: <#parentView#>.safeAreaLayoutGuide.leadingAnchor, constant: 0),
+        <#childView#>.trailingAnchor.constraint(equalTo: <#parentView#>.safeAreaLayoutGuide.trailingAnchor, constant: 0)
+        ])
    ```
 
   </details>
@@ -205,6 +196,7 @@ There are MARKs for Swift and Objective-C. For Swift there is prefix before each
     ```
 
    </details>
+
 * A code block for creating keyboard notifications detector, **shortcut:** `Keyboard detector`
   <details>
   <summary>Code</summary>
