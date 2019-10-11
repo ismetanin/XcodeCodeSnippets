@@ -31,27 +31,29 @@ rm -rf XcodeCodeSnippets
 
 ### MARKs
 
-There are MARKs for Swift and Objective-C. For Swift there is prefix before each `// MARK: -` and for Objective-C prefix is `#pragma mark -`
+There are MARKs for Swift and Objective-C. For Swift there is prefix before each `// MARK: -` and for Objective-C prefix is `#pragma mark -`.
 
-|Snippet|Shortcut|
-|---|---|
-|Just empty mark (`// MARK: - ` or `#pragma mark - `)     |`MARK`                                  |
-|`Nested types`                                           |`Nested types`                          |
-|`Constants`                                              |`Constants`                             |
-|`Subviews`                                               |`Subviews`                              |
-|`NSLayoutConstraints`                                    |`NSLayoutConstraints`                   |
-|`Properties`                                             |`Properties`                            |
-|`Public properties`                                      |`Public properties`                     |
-|`Readonly properties`                                    |`Readonly properties`                   |
-|`IBOutlets`                                              |`IBOutlets`                             |
-|`Initialization and deinitialization`                    |`Initialization and deinitialization`   |
-|`UITableViewCell`                                        |`UITableViewCell`                       |
-|`UIViewController`                                       |`UIViewController`                      |
-|`Actions`                                                |`Actions`                               |
-|`IBActions`                                              |`IBActions`                             |
-|`Public methods`                                         |`Public methods`                        |
-|`Internal methods`                                       |`Internal methods`                      |
-|`Private methods`                                        |`Private methods`                       |
+Shortcuts are equal to snippet body for example for `// MARK: - Properties` shortcut is `Properties`.
+
+|Snippet|
+|---|
+|Just empty mark (`// MARK: - ` or `#pragma mark - `)     |
+|`Nested types`                                           |
+|`Constants`                                              |
+|`Subviews`                                               |
+|`NSLayoutConstraints`                                    |
+|`Properties`                                             |
+|`Public properties`                                      |
+|`Readonly properties`                                    |
+|`IBOutlets`                                              |
+|`Initialization and deinitialization`                    |
+|`UITableViewCell`                                        |
+|`UIViewController`                                       |
+|`Actions`                                                |
+|`IBActions`                                              |
+|`Public methods`                                         |
+|`Internal methods`                                       |
+|`Private methods`                                        |
 
 ### Code
 
