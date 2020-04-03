@@ -35,6 +35,10 @@ There are MARKs for Swift and Objective-C. For Swift there is prefix before each
 
 Shortcuts are equal to snippet body for example for `// MARK: - Properties` shortcut is `Properties`.
 
+<details>
+  <summary>Available MARKs</summary>
+  <br>
+
 |Snippet|
 |---|
 |Just empty mark (`// MARK: - ` or `#pragma mark - `)     |
@@ -54,6 +58,7 @@ Shortcuts are equal to snippet body for example for `// MARK: - Properties` shor
 |`Public methods`                                         |
 |`Internal methods`                                       |
 |`Private methods`                                        |
+</details>
 
 ### Code
 
