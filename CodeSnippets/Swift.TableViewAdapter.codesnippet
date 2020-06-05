@@ -11,68 +11,76 @@
 	<key>IDECodeSnippetContents</key>
 	<string>import UIKit
 
-protocol &lt;#Your#&gt;ViewAdapterOutput {
+protocol &lt;#Your#&gt;TableViewAdapterOutput {
 }
 
 final class &lt;#Your#&gt;TableViewAdapter: NSObject {
-    
     // MARK: - Properties
-    
-    private let output: &lt;#Your#&gt;ViewAdapterOutput
-    
-    private var items: [&lt;#ItemsType#&gt;]
-    private (set) var tableView: UITableView {
-        didSet {
-            tableView.register(UINib(nibName: &lt;#CellName#&gt;, bundle: nil), forCellReuseIdentifier: &lt;#CellName#&gt;)
-        }
-    }
-    
+
+    private let output: &lt;#Your#&gt;TableViewAdapterOutput
+
+    private var items: [String]
+    private var tableView: UITableView
+
     // MARK: - Initialization and deinitialization
-    
-    init(output: &lt;#Your#&gt;ViewAdapterOutput) {
+
+    init(tableView: UITableView, output: &lt;#Your#&gt;TableViewAdapterOutput) {
         self.output = output
-    }
-    
-    // MARK: - Internal helpers
-    
-    func set(tableView: UITableView) {
         self.tableView = tableView
+        self.items = []
+        super.init()
+        setupTable()
     }
-    
-    func configure(with items: &lt;#ItemsType#&gt;) {
+
+    // MARK: - Internal methods
+
+    func configure(with items: [String]) {
         self.items = items
+        tableView.reloadData()
     }
-    
+
+    // MARK: - Private methods
+
+    private func setupTable() {
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.register(
+            UINib(nibName: String(describing: &lt;#Your#&gt;TableViewCell.self), bundle: nil),
+            forCellReuseIdentifier: String(describing: &lt;#Your#&gt;TableViewCell.self)
+        )
+    }
 }
 
 // MARK: - UITableViewDataSource
 
 extension &lt;#Your#&gt;TableViewAdapter: UITableViewDataSource {
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
         return items.count
     }
-    
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
-        let cell = UITableViewCell()
-        return cell
+        let cell = tableView.dequeueReusableCell(
+            withIdentifier: String(describing: &lt;#Your#&gt;TableViewCell.self),
+            for: indexPath
+        ) as? TableViewCell
+        cell?.backgroundColor = .red
+        return cell ?? &lt;#Your#&gt;UITableViewCell()
     }
-    
 }
 
 // MARK: - UITableViewDelegate
 
 extension &lt;#Your#&gt;TableViewAdapter: UITableViewDelegate {
-    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
     }
-    
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A1B0978E-94D6-4B90-9D4E-3AFD1111621D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Table view adapter</string>
 	<key>IDECodeSnippetUserSnippet</key>
